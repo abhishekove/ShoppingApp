@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "813161831134",
+    "firebase_url": "https://weshoppers-c6596.firebaseio.com",
+    "project_id": "weshoppers-c6596",
+    "storage_bucket": "weshoppers-c6596.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813161831134:android:d3af901e0803b39b",
+        "android_client_info": {
+          "package_name": "com.example.weshoppers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813161831134-qqtj0jonjhfv3nfi6ad8add0ngt95pl4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.weshoppers",
+            "certificate_hash": "aa46553ed945d997ba1d1e33dd0a91e18943f234"
+          }
+        },
+        {
+          "client_id": "813161831134-06o44qv995837d9u9j8cb2486ghcott0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMA0naJfTM2d6BimGRHj7uRECuNDBr-YI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813161831134-06o44qv995837d9u9j8cb2486ghcott0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
