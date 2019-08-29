@@ -25,7 +25,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HomeFrag extends Fragment {
-    private List<Items> itemsList7=new ArrayList<>();
+     List<Items> itemsList7=new ArrayList<>();
     private ListView listView;
     private FirebaseUser firebaseUser;
     @Nullable
