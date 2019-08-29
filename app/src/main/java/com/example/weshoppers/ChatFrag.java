@@ -1,6 +1,6 @@
 package com.example.weshoppers;
 
-import android.os.Build;
+
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
+
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -17,14 +17,14 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.annotation.RequiresApi;
+
 import androidx.fragment.app.Fragment;
 
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.ChildEventListener;
+
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -33,19 +33,19 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
+
 
 public class ChatFrag extends Fragment {
    private EditText editText;
    private ImageView imageView;
    private FirebaseUser firebaseUser;
-   ImageView imageView2;
- String stat;
+  private ImageView imageView2;
+ private String stat;
    private ListView listView;
-    View v;
-    DatabaseReference databaseReference;
-    String chats;
-    List<letsChat> chatList;
+   private View v;
+   private DatabaseReference databaseReference;
+   private String chats;
+   private List<letsChat> chatList;
 
     @Override
     public void onStart() {
@@ -186,11 +186,6 @@ public class ChatFrag extends Fragment {
 
         return v;
     }
-    public class kk extends Handler{
-        @Override
-        public void handleMessage(@NonNull Message msg) {
 
-        }
-    }
 
 }

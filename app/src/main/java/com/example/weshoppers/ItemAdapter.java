@@ -40,7 +40,7 @@ public class ItemAdapter extends ArrayAdapter<Items> {
                 .into(imageView);
         title.setText(items.getTitle());
         price.setText(items.getPrice());
-        offers.setText(items.getOffers());
+        offers.setText(items.getItemid());
         return convertView;
     }
 }

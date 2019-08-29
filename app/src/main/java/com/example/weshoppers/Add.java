@@ -92,7 +92,7 @@ final  UploadTask uploadTask=storageReference1.putFile(uri);
               if(!task.isSuccessful()){
                   throw task.getException();
               }
-              ili=storageReference1.getDownloadUrl().toString();
+              storageReference1.getDownloadUrl().toString();
               return storageReference1.getDownloadUrl();
           }
       }).addOnCompleteListener(new OnCompleteListener<Uri>() {
